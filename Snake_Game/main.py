@@ -26,7 +26,7 @@ kafa.penup()
 kafa.goto(0, 0)
 kafa.direction = "stop"
 
-#yılanın yedıgı zımbırtıyı kodluyoruz sımdı
+#food
 
 food = turtle.Turtle()
 food.speed(0)
@@ -48,7 +48,7 @@ pen.hideturtle()
 pen.goto(0, 260)
 pen.write("Score: 0 High Score: 0", align="center", font=("Courier", 20, "normal"))
 
-#fonksiyonları yazalım
+#fonksiyonlar
 
 def go_up():
     if kafa.direction != "down":
